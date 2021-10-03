@@ -31,6 +31,8 @@ class Image extends BaseActiveRecord implements ImageInterface
         'main_table'            => 'images',
         'route'                 => '/admin/image',//to be used for editing and deleting
 
+        'no_permissions'        => true,
+
         'object_name_property'  => 'image_path',//required by BaseActiveRecord::get_object_name_property()
     ];
 
